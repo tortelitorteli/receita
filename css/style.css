@@ -1,0 +1,131 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #CCCCCC url('../imagens/fundo.png') repeat-x;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+}
+
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*
+definição dos links
+*/
+a:link, a:visited { /*muda a cor do link quando clika em cima*/
+	color: #333;
+	background: gray;
+
+}
+/*a:hover{
+color: yellow;
+background: red;
+}*/
+
+
+nav  {
+	background:#B3B3B3;
+	font-size: 1.4em;
+	}
+
+nav h1 {
+    color: #ccc;
+}
+
+nav ul{
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+	}
+
+nav li a {
+	color: #333;
+	text-decoration: none;
+}
+nav li a:link,nav li a:visited{
+	background-color:#B3B3B3;}
+
+section{
+	margin: 0 auto;
+	padding: 10px;
+	width: 1024px;
+	background: #fff;
+	border: 1px solid #808080;
+}
+
+article, aside {
+	width: 360px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+}
+article {
+	float: left;
+}
+
+article h2 {
+	font-size: 2em;
+	margin: 0 0 10px 0;
+}
+
+article p {
+	margin: 0 0 10px 0;
+}
+
+article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+
+aside {
+	float: right;
+	background: #eee;
+}
+
+aside h2 {
+	border-bottom: 5px solid #ccc;
+	margin: 0 0 20px 0;
+	padding: 5px;
+}
+
+aside li {
+	margin: 0 10px 20px 0;
+	float: left;
+	border: 5px solid #ddd;
+}
+
+aside img {
+	height: 130px;
+	width: 130px;
+}
+
+footer {
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
+}
