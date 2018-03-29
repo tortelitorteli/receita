@@ -27,17 +27,24 @@ definição dos links
 */
 a:link, a:visited { /*muda a cor do link quando clika em cima*/
 	color: #333;
-	background: gray;
+	/*background: gray;*/
 
 }
+
+
 /*a:hover{
 color: yellow;
 background: red;
 }*/
+header img{
+	height: 300px;
+	width: 300px;
 
+	
+}
 
 nav  {
-	background:#B3B3B3;
+	background:#61c5bf;
 	font-size: 1.4em;
 	}
 
@@ -61,8 +68,9 @@ nav li a {
 	color: #333;
 	text-decoration: none;
 }
-nav li a:link,nav li a:visited{
-	background-color:#B3B3B3;}
+/*nav li a:link,nav li a:visited{
+	background-color:#B3B3B3;
+	}*/
 
 section{
 	margin: 0 auto;
@@ -70,6 +78,10 @@ section{
 	width: 1024px;
 	background: #fff;
 	border: 1px solid #808080;
+}
+article img {
+	height: 350px;
+	width: 620px;
 }
 
 article, aside {
@@ -99,6 +111,7 @@ article ul  li {
 	margin: 0 0 10px 0;
 }
 
+
 aside {
 	float: right;
 	background: #eee;
@@ -115,11 +128,13 @@ aside li {
 	float: left;
 	border: 5px solid #ddd;
 }
-
-aside img {
+aside img{
 	height: 130px;
-	width: 130px;
+	width: 160px;
+	
 }
+
+
 
 footer {
 	clear: both;
